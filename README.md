@@ -15,10 +15,10 @@ Interfaz Moderna: Diseño responsivo con Bootstrap y estilos personalizados
 
 ### 🚀 Características Principales
 
-✅ Componentes React reutilizables
-🔥 Integración con Firebase (Auth, Firestore Database, Storage)
-🛒 Carrito de compras con funcionalidad completa
-🔐 Sistema de autenticación seguro, formulario con validaciones 
+- ✅ Componentes React reutilizables
+- 🔥 Integración con Firebase (Auth, Firestore Database, Storage)
+- 🛒 Carrito de compras con funcionalidad completa
+- 🔐 Sistema de autenticación seguro, formulario con validaciones 
 
 ### 🛠️ Tecnologías Utilizadas
 
