@@ -1,0 +1,117 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Página principal */
+.page {
+  min-height: 100vh;
+  background: #0a0e1a;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  padding: 40px 20px;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  color: #00d4aa;
+  margin-bottom: 8px;
+}
+
+.header p {
+  color: #888;
+  font-size: 1rem;
+}
+
+.main {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.status {
+  display: flex;
+  align-items: center;
+  background: #111;
+  border: 1px solid #333;
+  border-radius: 4px;
+  padding: 12px 16px;
+  margin-bottom: 30px;
+  font-size: 0.9rem;
+  color: #00d4aa;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  background: #00d4aa;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+/* Info section */
+.info {
+  margin-bottom: 30px;
+}
+
+.info > p {
+  color: #ccc;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+.list p {
+  color: #999;
+  margin-bottom: 8px;
+  padding-left: 10px;
+}
+
+/* Grila de cards */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+  margin-bottom: 40px;
+}
+
+.card_index {
+  background: #111;
+  border: 1px solid #333;
+  border-radius: 4px;
+  padding: 20px;
+  text-align: center;
+}
+
+.card span {
+  display: block;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  color: #ccc;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #333;
+}
+
+.footer p {
+  color: #666;
+  font-size: 0.8rem;
+}
+
